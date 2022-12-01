@@ -1,0 +1,13 @@
+#d=b**2-4*a*g; d>0 x1,2=-b+-sqrtd/2*a; d=0 x=-b/2*a; d<0 it doesnt exist;
+from math import*
+a=(float(input("enter a from quadratic equation")))
+b=(float(input("enter b from quadratic equation")))
+c=(float(input("enter c from quadratic equation")))
+da=b**2-4*a*c
+if da>0:
+    print((-b+sqrt(da))/(2.0*a))
+    print((-b-sqrt(da))/(2.0*a))
+elif da==0:
+    print((-b)/(2*a))
+else:
+    print("it doesnt exist")

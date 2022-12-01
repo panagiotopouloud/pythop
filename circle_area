@@ -1,0 +1,4 @@
+#circle area E=π*r**2
+from math import* 
+r=(float(input("enter circle radius")))
+print(pi*r**2)
